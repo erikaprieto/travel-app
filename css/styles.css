@@ -34,7 +34,6 @@
   margin-left: 180px;
 }
 
-.login__nav {}
 
 .p {
   color: white;
@@ -101,28 +100,6 @@ a:hover {
   width: 100%;
   height: 88vh;
 }
-
-
-/* .nav{
-    background-size: cover;
-    margin-top: 40px;
-    margin-left:50px;
-    width:90%;
-    height:5vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.logo{
-    height: 40px;
-    width:40px ;
-    margin-right: 10px;
-}
-.nameapp{
-    font-family:'Times New Roman', Times, serif;
-    color: white;
-} */
-
 
 
 /* seccion formulario */
@@ -199,14 +176,14 @@ a:hover {
 .login__button--grey {
   background-color: grey;
   border: none;
-}
+} 
 
 .login__button--blue {
   background-color: #1C90F4;
 }
 
 
-/* ------------------------ HOME -------------------------- */
+/* ------------------------ HOME--------------------- */
 
 
 .inicio__body {
@@ -300,7 +277,7 @@ a:hover {
 
 
 
-/* -------------------- BOARDING ------------------------ */
+/* -------------------- BOARDING --------------------- */
 
 
 .hospedaje__body {
@@ -317,4 +294,29 @@ a:hover {
   align-items: center;
 }
 
-/* -----------------------LODGING---------------------------- */
+/* -----------------------LODGING------------------------ */
+
+
+.lodging__body{
+  background-color: #282a37ea;
+  background-size: cover;
+  color: black;
+}
+.lodging__main {
+  width: 100%;
+  height: 90vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+/* ---------------------ACTIVITIES--------------------- */
+
+.activities__body{
+  background-color: #282a37ea;
+  background-size: cover;
+  color: black;
+}
+.activities__main {
+  width: 100%;
+  height: 90vh;
