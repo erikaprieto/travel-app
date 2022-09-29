@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/styles.css">
@@ -13,7 +12,7 @@
 </head>
 
 <body class="hospedaje__body">
-    <nav class="nav">
+    <!-- <nav class="nav">
         <a href="/index.html"><img src="/images/airplane-around-earth.png" alt="logo de avion" class="logo"></a>
         <p class="nameapp">TravelApp</p>
         <div class="nav__p">
@@ -24,8 +23,26 @@
             <a class="miviaje__nav p" href="#">My Trip</a>
             <a class="login__nav p" href="/views/login.html"> Login </a>
         </div>
-    </nav>
-    <main class="hospedaje__main container">
+    </nav> -->
+    <nav class="navbar navbar-expand-lg nav">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="/index.html"> <img src="/images/airplane-around-earth.png" alt="logo de avion" class="logo">TravelApp</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active text-white" aria-current="page" href="/index.html">Home</a>
+              <a class="nav-link active text-white" href="/views/boarding.html">Boarding</a>
+              <a class="nav-link active text-white" href="/views/lodging.html">Lodging</a>
+              <a class="nav-link active text-white" href="/views/activities.html">Activities</a>
+              <a class="nav-link active text-white" href="#">My trip</a>
+            </div>
+            <a class="nav-link active nav-right text-white" href="/views/login.html">Log in </a>
+          </div>
+        </div>
+      </nav>
+    <main class="hospedaje__main container ">
         <!-- <h1>Select Date</h1>
         <input type="text">
         <input type="text">
@@ -35,23 +52,27 @@
         <input type="date">
         <input type="date">
         <a href="/views/lodging.html"><input type="button" value="continue"></a> -->
-      
-            <div class="row">
+                <div class="row col-12 text-center ">
+                    <h1>Select Date</h1>
+                </div>
+                <div class="row col-12 justify-content-center gap-2 ">
+                    <input type="text" class="col-xl-4 col-5">
+                    <input type="text" class="col-xl-4 col-5">
+                </div>
+                <div class="row col-12 justify-content-center ">
+                    <iframe
+                    src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23616161&ctz=UTC&showPrint=0&showTabs=0&showTz=1&showCalendars=1&showTitle=0&src=ZXMuYXIjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%230B8043"
+                    style="border:solid 1px  #333645" width="300" height="300" frameborder="0" scrolling="no" class="col-xl-8 col-9"></iframe>
+                </div>
+                <div class="row col-12 justify-content-center gap-2 ">
+                    <input type="date" class="col-xl-4 col-5">
+                    <input type="date" class="col-xl-4 col-5">
+                </div>
+                <div class="row col-12 text-center">
+                    <a href="/views/lodging.html"><input type="button" value="continue" class="col-xl-3 col-5"></a>
+                </div>
 
-            </div>
-            <div class="row">
-
-            </div>
-            <div class="row">
-
-            </div>
-            <div class="row">
-
-            </div>
-            <div class="row">
                 
-            </div>
-
 
 
     </main>

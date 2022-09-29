@@ -13,19 +13,25 @@
 </head>
 
 <body class="activities__body">
-    <main class="activities__main">
-        <nav class="nav">
-            <img src="/images/airplane-around-earth.png" alt="logo de avion" class="logo">
-            <p class="nameapp">TravelApp</p>
-            <div class="nav__p">
-                <a class="inicio__nav p" href="/index.html">Home</a>
-                <a class="transporte__nav p" href="/views/boarding.html">Boarding</a>
-                <a class="hospedaje__nav p" href="/views/lodging.html">Lodging</a>
-                <a class="actividades__nav p" href="/views/activities.html">Activities</a>
-                <a class="miviaje__nav p" href="#">My Trip</a>
-                <a class="login__nav p" href="/views/login.html"> Login </a>
+    <nav class="navbar navbar-expand-lg nav">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="/index.html"> <img src="/images/airplane-around-earth.png" alt="logo de avion" class="logo">TravelApp</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active text-white" aria-current="page" href="/index.html">Home</a>
+              <a class="nav-link active text-white" href="/views/boarding.html">Boarding</a>
+              <a class="nav-link active text-white" href="/views/lodging.html">Lodging</a>
+              <a class="nav-link active text-white" href="/views/activities.html">Activities</a>
+              <a class="nav-link active text-white" href="#">My trip</a>
             </div>
-        </nav>
+            <a class="nav-link active nav-right text-white" href="/views/login.html">Log in </a>
+          </div>
+        </div>
+      </nav>
+    <main class="activities__main">
         <h1>Select Activities</h1>
         <div><input type="text" value="Name">
             <input type="text" value="ubication">
