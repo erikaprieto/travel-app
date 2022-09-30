@@ -79,7 +79,7 @@ a:hover {
 /* --------------------LOGIN--------------- */
 
 .login__body {
-  background-image: linear-gradient(to right, #282a37, #282a37fd, #282a37b9), url('/images/chalten_login.jpg');
+  background-image: linear-gradient(to right, #282a37, #282a37fd, #282a37b9), url('../images/chalten_login.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -241,32 +241,32 @@ a:hover {
 }
 
 .one {
-  background-image: url(/images/el_chalten.jpg);
+  background-image: url(../images/el_chalten.jpg);
   background-size: cover;
   color: white;
   font-size: x-large;
 }
 
 .two {
-  background-image: url(/images/calafate.jpg);
+  background-image: url(../images/calafate.jpg);
   background-size: cover;
   color: white;
 }
 
 .three {
-  background-image: url(/images/ushuaia.jpg);
+  background-image: url(../images/ushuaia.jpg);
   background-size: cover;
   color: white;
 }
 
 .four {
-  background-image: url(/images/bariloche.jpg);
+  background-image: url(../images/bariloche.jpg);
   background-size: cover;
   color: white;
 }
 
 .five {
-  background-image: url(/images/villa-la-angostura.jpg);
+  background-image: url(../images/villa-la-angostura.jpg);
   background-size: cover;
   color: white;
 }
