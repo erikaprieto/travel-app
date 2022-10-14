@@ -4,48 +4,18 @@
   padding: 0;
 }
 
-
-/* navegador */
-.nav{
+.nav {
   background-color: #282a37;
 }
-
-.nav-right{
+.nav .nav-right {
   margin-left: auto;
 }
-
-.logo {
+.nav .logo {
   height: 40px;
   width: 40px;
   margin-right: 10px;
 }
 
-/* .nameapp {
-  font-family: 'Times New Roman', Times, serif;
-  color: white;
-}
-
-.nav__p {
-  display: flex;
-  flex-direction: row;
-  margin-left: 180px;
-}
-
-
-.p {
-  color: white;
-  margin-left: 40px;
-  margin-right: 40px;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #1C90F4 !important;
-}
-
-
-/* footer */
 .footer {
   background-color: #282a37;
   background-size: cover;
@@ -55,52 +25,38 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-
-.logo__footer {
+.footer .logo__footer {
   padding-top: 5px;
   width: 70%;
   height: 30px;
   display: flex;
   justify-content: center;
   align-items: space-around;
-
 }
-
-.logo__item {
+.footer .logo__footer .logo__item {
   width: 20px;
   height: 20px;
   margin-left: 100px;
   margin-right: 100px;
 }
 
-
-
-
-/* --------------------LOGIN--------------- */
-
 .login__body {
-  background-image: linear-gradient(to right, #282a37, #282a37fd, #282a37b9), url('../images/chalten_login.jpg');
+  background-image: linear-gradient(to right, #282a37, rgba(40, 42, 55, 0.9921568627), rgba(40, 42, 55, 0.7254901961)), url("../images/chalten_login.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 0.5;
   width: 100%;
   justify-content: space-between;
   min-height: 100vh;
-
 }
-
-.login__main {
+.login__body .login__main {
   background-size: cover;
   width: 100%;
   height: 88vh;
 }
-
-
-/* seccion formulario */
-.login__section {
+.login__body .login__main .login__section {
   margin: 40px;
   margin-top: 50px;
   margin-left: 80px;
@@ -110,46 +66,32 @@ a:hover {
   display: flex;
   flex-direction: column;
 }
-
-.login__form__text {
-  font-family: 'Times New Roman', Times, serif;
+.login__body .login__main .login__section .login__form__text {
+  font-family: "Times New Roman", Times, serif;
   color: white;
   margin-bottom: 30px;
 }
-
-.login__form__text__h5 {
+.login__body .login__main .login__section .login__form__text .login__form__text__h5 {
   font-size: 15px;
   color: #959caa;
   margin-bottom: 10px;
 }
-
-.login__form__text__h1 {
+.login__body .login__main .login__section .login__form__text .login__form__text__h1 {
   font-size: 50px;
 }
-
-.login__form {
+.login__body .login__main .login__section .login__form {
   width: 70%;
   height: 55vh;
   display: flex;
   flex-direction: column;
 }
-
-.login__form__name {
+.login__body .login__main .login__section .login__form .login__form__name {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
-.login__form__button {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-family: 'Times New Roman', Times, serif;
-  flex-wrap: wrap;
-}
-
-.login__form__input {
+.login__body .login__main .login__section .login__form .login__form__input {
   border-radius: 10px;
   border-style: solid;
   border-color: #1C90F4;
@@ -160,37 +102,33 @@ a:hover {
   margin: 15px 0;
   padding: 10px;
 }
-
-.login__button {
+.login__body .login__main .login__section .login__form .input__fullwidth {
+  width: 100%;
+}
+.login__body .login__main .login__section .login__form .login__form__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Times New Roman", Times, serif;
+  flex-wrap: wrap;
+}
+.login__body .login__main .login__section .login__form .login__form__button .login__button {
   border-radius: 25px;
   cursor: pointer;
 }
-
-.input__fullwidth {
-  width: 100%;
-}
-
-.login__button--grey {
+.login__body .login__main .login__section .login__form .login__form__button .login__button--grey {
   background-color: grey;
   border: none;
-} 
-
-.login__button--blue {
+}
+.login__body .login__main .login__section .login__form .login__form__button .login__button--blue {
   background-color: #1C90F4;
 }
 
-
-/* ------------------------ HOME--------------------- */
-
-
 .inicio__body {
-  background-color: #282a37ea;
+  background-color: rgba(40, 42, 55, 0.9176470588);
   background-size: cover;
 }
-
-
-/* section */
-.inicio__section {
+.inicio__body .inicio__section {
   width: 100%;
   height: 80vh;
   display: flex;
@@ -198,8 +136,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
 }
-
-.section__banner {
+.inicio__body .inicio__section .section__banner {
   color: white;
   font-size: 3em;
   width: 100%;
@@ -209,10 +146,8 @@ a:hover {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-
 }
-
-.section__button {
+.inicio__body .inicio__section .section__button {
   border-radius: 7px;
   border-style: solid;
   border-color: #1C90F4;
@@ -224,66 +159,52 @@ a:hover {
   box-shadow: 8px 11px 11px -4px rgba(0, 0, 0, 0.82);
   cursor: pointer;
 }
-
-.section__photo {
+.inicio__body .inicio__section .section__photo {
   width: 80%;
   height: 35vh;
   display: flex;
   align-items: center;
 }
-
-.photo {
+.inicio__body .inicio__section .section__photo .photo {
   width: 20%;
   height: 30vh;
   margin: 10px;
   border: 2px solid #282a37;
   box-shadow: 8px 11px 11px -4px rgba(0, 0, 0, 0.82);
 }
-
-.one {
+.inicio__body .inicio__section .section__photo .photo .one {
   background-image: url(../images/el_chalten.jpg);
   background-size: cover;
   color: white;
   font-size: x-large;
 }
-
-.two {
+.inicio__body .inicio__section .section__photo .photo .two {
   background-image: url(../images/calafate.jpg);
   background-size: cover;
   color: white;
 }
-
-.three {
+.inicio__body .inicio__section .section__photo .photo .three {
   background-image: url(../images/ushuaia.jpg);
   background-size: cover;
   color: white;
 }
-
-.four {
+.inicio__body .inicio__section .section__photo .photo .four {
   background-image: url(../images/bariloche.jpg);
   background-size: cover;
   color: white;
 }
-
-.five {
+.inicio__body .inicio__section .section__photo .photo .five {
   background-image: url(../images/villa-la-angostura.jpg);
   background-size: cover;
   color: white;
 }
 
-
-
-
-/* -------------------- BOARDING --------------------- */
-
-
 .hospedaje__body {
-  background-color: #282a37ea;
+  background-color: rgba(40, 42, 55, 0.9176470588);
   background-size: cover;
   color: black;
 }
-
-.hospedaje__main {
+.hospedaje__body .hospedaje__main {
   width: 100%;
   height: 90vh;
   display: flex;
@@ -292,31 +213,14 @@ a:hover {
   gap: 2rem;
 }
 
-/* -----------------------LODGING------------------------ */
-
-
-.lodging__body{
-  background-color: #282a37ea;
+.lodging__body {
+  background-color: rgba(40, 42, 55, 0.9176470588);
   background-size: cover;
   color: black;
 }
-.lodging__main {
-  width: 100%;
-  height: 90vh;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
-}
-
-/* ---------------------ACTIVITIES--------------------- */
-
-.activities__body{
-  background-color: #282a37ea;
-  background-size: cover;
-  color: black;
-}
-.activities__main {
+.lodging__body .lodging__main {
   width: 100%;
   height: 90vh;
 }
- 
+
+/*# sourceMappingURL=style.css.map */
