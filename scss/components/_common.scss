@@ -1,0 +1,38 @@
+.generic-input{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1C90F4;
+    background-color: #333645;
+    color: white;
+    // margin: 15px 0;
+    padding: 10px;
+}
+.generic-input__fullwidth {
+    width: 100%;
+}
+.generic__button {
+    border-radius: 25px;
+    cursor: pointer;
+    width: 180px;
+}
+.generic__button--grey {
+    background-color: grey;
+    border: none;
+}
+
+.generic__button--blue {
+    background-color: #1C90F4;
+}
+.checkbox__input{
+    color: white;
+}
+
+.tipe_text{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.generic-card {
+    border: solid 2px #1C90F4;
+    border-radius: 6px;
+    padding: 1rem;
+}

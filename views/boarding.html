@@ -28,30 +28,34 @@
                     <a class="nav-link active text-white" href="./activities.html">Activities</a>
                     <a class="nav-link active text-white" href="#">My trip</a>
                 </div>
-                <a class="nav-link active nav-right text-white" href="./login.html">Log in </a>
+                <a class="nav-link active nav-right text-white" href="./login.html">
+                    <img src="../images/login-icon.svg" alt="log in" class="icon-login">
+                    Log In
+                    </a>
             </div>
         </div>
     </nav>
+
     <main class="hospedaje__main container ">
         <div class="row col-12 text-center ">
-            <h1>Select Date</h1>
+            <h2>Select Date</h2>
         </div>
         <div class="row col-12 justify-content-center gap-2 ">
-            <input type="text" class="col-xl-4 col-5">
-            <input type="text" class="col-xl-4 col-5">
+            <input type="text" placeholder="From" class="col-xl-4 col-5 generic-input">
+            <input type="text" placeholder="To" class="col-xl-4 col-5 generic-input ">
         </div>
         <div class="row col-12 justify-content-center ">
             <iframe
                 src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23616161&ctz=UTC&showPrint=0&showTabs=0&showTz=1&showCalendars=1&showTitle=0&src=ZXMuYXIjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%230B8043"
-                style="border:solid 1px  #333645" width="300" height="300" frameborder="0" scrolling="no"
+                style="border:solid 1px  #333645" width="250" height="280" frameborder="0" scrolling="no"
                 class="col-xl-8 col-9"></iframe>
         </div>
         <div class="row col-12 justify-content-center gap-2 ">
-            <input type="date" class="col-xl-4 col-5">
-            <input type="date" class="col-xl-4 col-5">
+            <input type="date" class="col-xl-4 col-5 generic-input">
+            <input type="date" class="col-xl-4 col-5 generic-input">
         </div>
         <div class="row col-12 text-center">
-            <a href="./lodging.html"><input type="button" value="continue" class="col-xl-3 col-5"></a>
+            <a href="./lodging.html"><input type="button" value="continue" class="col-xl-3 col-5 generic-input generic__button generic__button--blue" ></a>
         </div>
 
     </main>

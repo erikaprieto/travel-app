@@ -30,7 +30,10 @@
                     <a class="nav-link active text-white" href="./activities.html">Activities</a>
                     <a class="nav-link active text-white" href="#">My trip</a>
                 </div>
-                <a class="nav-link active nav-right text-white" href="./login.html">Log in </a>
+                <a class="nav-link active nav-right text-white" href="./login.html">
+                    <img src="../images/login-icon.svg" alt="log in" class="icon-login">
+                    Log In
+                </a>
             </div>
         </div>
     </nav>
@@ -45,20 +48,18 @@
             </div>
             <form class="login__form">
                 <div class="login__form__name">
-                    <input type="text" name="First name" placeholder="First name" class="login__form__input">
-                    <input type="text" name="Last name" placeholder="Last name" class="login__form__input">
+                    <input type="text" name="First name" placeholder="First name" class="generic-input login__text">
+                    <input type="text" name="Last name" placeholder="Last name" class="generic-input login__text">
                 </div>
-                <input type="email" name="Email" placeholder="Email" class="login__form__input input__fullwidth">
-                <input type="password" name="Password" placeholder="Password"
-                    class="login__form__input input__fullwidth">
+                <input type="email" name="Email" placeholder="Email" class="generic-input input__fullwidth">
+                <input type="password" name="Password" placeholder="Password" class="generic-input input__fullwidth">
                 <div class="login__form__button">
                     <a href="#">
-                        <input type="button" value="Log in"
-                            class="login__form__input login__button login__button--grey">
+                        <input type="button" value="Log in" class="generic-input generic__button generic__button--grey">
                     </a>
                     <a href="/index.html">
                         <input type="button" value="Create account"
-                            class="login__form__input login__button login__button--blue">
+                            class="generic-input generic__button generic__button--blue">
                     </a>
                 </div>
             </form>

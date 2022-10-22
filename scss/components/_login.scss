@@ -12,13 +12,12 @@
     .login__main {
         background-size: cover;
         width: 100%;
-        height: 88vh;
+        // height: 88vh;
 
         .login__section {
             margin: 40px;
             margin-top: 50px;
             margin-left: 80px;
-            width: 100%;
             max-width: 550px;
             min-height: 70vh;
             display: flex;
@@ -42,7 +41,6 @@
 
             .login__form {
                 width: 70%;
-                height: 55vh;
                 display: flex;
                 flex-direction: column;
 
@@ -53,24 +51,9 @@
                     flex-wrap: wrap;
 
                 }
-
-                .login__form__input {
-                    border-radius: 10px;
-                    border-style: solid;
-                    border-color: #1C90F4;
-                    background-color: #333645;
-                    color: white;
+                .login__text{
                     width: 180px;
-                    height: 7vh;
-                    margin: 15px 0;
-                    padding: 10px;
-
                 }
-
-                .input__fullwidth {
-                    width: 100%;
-                }
-
                 .login__form__button {
                     display: flex;
                     flex-direction: row;
@@ -78,19 +61,6 @@
                     font-family: 'Times New Roman', Times, serif;
                     flex-wrap: wrap;
 
-                    .login__button {
-                        border-radius: 25px;
-                        cursor: pointer;
-                    }
-
-                    .login__button--grey {
-                        background-color: grey;
-                        border: none;
-                    }
-
-                    .login__button--blue {
-                        background-color: #1C90F4;
-                    }
                 }
             }
         }

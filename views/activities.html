@@ -15,54 +15,49 @@
 <body class="activities__body">
     <nav class="navbar navbar-expand-lg nav">
         <div class="container-fluid">
-          <a class="navbar-brand text-white" href="../index.html"> <img src="../images/airplane-around-earth.png" alt="logo de avion" class="logo">TravelApp</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active text-white" aria-current="page" href="../index.html">Home</a>
-              <a class="nav-link active text-white" href="./boarding.html">Boarding</a>
-              <a class="nav-link active text-white" href="./lodging.html">Lodging</a>
-              <a class="nav-link active text-white" href="./activities.html">Activities</a>
-              <a class="nav-link active text-white" href="#">My trip</a>
+            <a class="navbar-brand text-white" href="../index.html"> <img src="../images/airplane-around-earth.png"
+                    alt="logo de avion" class="logo">TravelApp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-white" aria-current="page" href="../index.html">Home</a>
+                    <a class="nav-link active text-white" href="./boarding.html">Boarding</a>
+                    <a class="nav-link active text-white" href="./lodging.html">Lodging</a>
+                    <a class="nav-link active text-white" href="./activities.html">Activities</a>
+                    <a class="nav-link active text-white" href="#">My trip</a>
+                </div>
+                <a class="nav-link active nav-right text-white" href="./login.html">
+                    <img src="../images/login-icon.svg" alt="log in" class="icon-login">
+                    Log In
+                </a>
             </div>
-            <a class="nav-link active nav-right text-white" href="./login.html">Log in </a>
-          </div>
         </div>
-      </nav>
-    <main class="activities__main">
-        <h1>Select Activities</h1>
-        <div><input type="text" value="Name">
-            <input type="text" value="ubication">
-            <input type="time">
-            <input type="time">
+    </nav>
+    <main class="activities__main container text-center ">
+        <h2 class="text-center title-activities ">Select Activities</h2>
+
+        <div class="row col-10 col-lg-4 justify-content-center gap-3 generic-card">
+            <h4 class="text-center">Opcion 1</h4>
+            <div class="row justify-content-center gap-2">
+                <input type="text" placeholder="Name" class="col-5 generic-input">
+                <input type="text" placeholder="Ubication" class="col-5 generic-input">
+            </div>
+            <div class="row justify-content-center gap-2">
+                <input type="time" class="col-5 generic-input">
+                <input type="time" class="col-5 generic-input">
+            </div>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13154.50446008052!2d-58.58847945!3d-34.487007899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1664217347689!5m2!1ses-419!2sar"
-                width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <input type="button" value="save">
+                width="160" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="col-11"></iframe>
+            <input type="button" value="save" class="col-4 generic__button generic__button--blue generic-input ">
         </div>
-        <div><input type="text" value="Name">
-            <input type="text" value="ubication">
-            <input type="time">
-            <input type="time">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13154.50446008052!2d-58.58847945!3d-34.487007899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1664217347689!5m2!1ses-419!2sar"
-                width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <input type="button" value="save">
-        </div>
-        <div><input type="text" value="Name">
-            <input type="text" value="ubication">
-            <input type="time">
-            <input type="time">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13154.50446008052!2d-58.58847945!3d-34.487007899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1664217347689!5m2!1ses-419!2sar"
-                width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <input type="button" value="save">
-        </div>
+
+        <input type="button" value="Finish" class="generic__button generic__button--blue generic-input ">
+
     </main>
     <footer class="footer">
         <div class="logo__footer">
