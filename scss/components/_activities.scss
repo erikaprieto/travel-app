@@ -9,8 +9,18 @@
     .activities__main {
         width: 100%;
         padding: 1rem 0;
-       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
 
-      
+        .section-activities {
+            display: flex;
+            justify-content: space-around;
+
+            .activities-card {
+                padding: 1rem 0;
+            }
+        }
     }
 }
