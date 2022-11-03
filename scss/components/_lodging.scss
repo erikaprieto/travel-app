@@ -2,6 +2,9 @@
     background-color: #282a37ea;
     background-size: cover;
     color: black;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 
     .lodging__main {
         width: 100%;

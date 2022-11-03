@@ -102,78 +102,48 @@
 }
 
 .inicio__body {
-  background-color: rgba(40, 42, 55, 0.9176470588);
   background-size: cover;
-}
-.inicio__body .inicio__section {
+  background-image: linear-gradient(to top, #282a37, #282a37, rgba(40, 42, 55, 0.9176470588), rgba(40, 42, 55, 0.3137254902)), url(../../images/el_chalten.jpg);
+  background-size: cover;
   width: 100%;
-  height: 80vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  font-family: "Times New Roman", Times, serif;
 }
-.inicio__body .inicio__section .section__banner {
-  color: white;
-  font-size: 3em;
-  width: 100%;
-  height: 25vh;
-  border: 2px solid #282a37;
+.inicio__body .inicio__main {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  color: #fafcfb;
+}
+.inicio__body .inicio__main span {
+  color: #1C90F4;
+}
+.inicio__body .home-banner {
+  color: #fafcfb;
+  width: 90%;
+  margin-top: 1rem;
+}
+.inicio__body .home-banner span {
+  color: #1C90F4;
+}
+.inicio__body .home-banner .text-size {
+  font-size: 50px;
+}
+.inicio__body .home-info {
+  width: 100%;
+  color: #fafcfb;
+  display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
-.inicio__body .inicio__section .section__button {
-  border-radius: 7px;
-  border-style: solid;
-  border-color: #1C90F4;
-  background-color: #333645;
-  color: white;
-  width: 150px;
-  height: 6vh;
-  font-size: medium;
-  box-shadow: 8px 11px 11px -4px rgba(0, 0, 0, 0.82);
-  cursor: pointer;
-}
-.inicio__body .inicio__section .section__photo {
-  width: 80%;
-  height: 35vh;
-  display: flex;
-  align-items: center;
-}
-.inicio__body .inicio__section .section__photo .photo {
-  width: 20%;
-  height: 30vh;
-  margin: 10px;
-  border: 2px solid #282a37;
-  box-shadow: 8px 11px 11px -4px rgba(0, 0, 0, 0.82);
-}
-.inicio__body .inicio__section .section__photo .photo .one {
-  background-image: url(../images/el_chalten.jpg);
-  background-size: cover;
-  color: white;
-  font-size: x-large;
-}
-.inicio__body .inicio__section .section__photo .photo .two {
-  background-image: url(../images/calafate.jpg);
-  background-size: cover;
-  color: white;
-}
-.inicio__body .inicio__section .section__photo .photo .three {
-  background-image: url(../images/ushuaia.jpg);
-  background-size: cover;
-  color: white;
-}
-.inicio__body .inicio__section .section__photo .photo .four {
-  background-image: url(../images/bariloche.jpg);
-  background-size: cover;
-  color: white;
-}
-.inicio__body .inicio__section .section__photo .photo .five {
-  background-image: url(../images/villa-la-angostura.jpg);
-  background-size: cover;
-  color: white;
+.inicio__body .home-info .image-caracteristicas {
+  width: 250px;
+  height: 200px;
+  border-radius: 5px;
 }
 
 .hospedaje__body {
@@ -194,6 +164,9 @@
   background-color: rgba(40, 42, 55, 0.9176470588);
   background-size: cover;
   color: black;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 .lodging__body .lodging__main {
   width: 100%;
